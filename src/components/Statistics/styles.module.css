@@ -16,8 +16,17 @@
   font-size: 4rem;
 }
 
+@media (max-width: 720px) {
+  .value {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    font-size: 2rem;
+  }
+}
+
 .text {
   color: #ddd;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 200;
 }

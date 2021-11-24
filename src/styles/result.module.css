@@ -5,4 +5,9 @@
   align-items: center;
   height: 100vh;
   font-size: 2rem;
+  padding: 0 10px;
+}
+
+.statistics {
+  display: flex;
 }

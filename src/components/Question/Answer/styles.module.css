@@ -8,6 +8,13 @@
   perspective: 1000px;
 }
 
+@media (max-width: 720px) {
+  .answer {
+    min-width: 320px;
+    height: 80px;
+  }
+}
+
 .answerContent {
   position: relative;
   display: flex;

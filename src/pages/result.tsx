@@ -26,7 +26,7 @@ export default function Result() {
   return (
     <div className={styles.result}>
       <h1>Resultado final</h1>
-      <div style={{ display: 'flex' }}>
+      <div className={styles.statistics}>
         <Statistics
           text="Perguntas"
           value={total}
