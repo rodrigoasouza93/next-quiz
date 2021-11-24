@@ -11,3 +11,7 @@
 .statistics {
   display: flex;
 }
+
+.result button {
+  margin-top: 1rem;
+}

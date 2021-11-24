@@ -3,5 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.quiz button {
+  margin-top: 1rem;
 }
