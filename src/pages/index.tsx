@@ -6,7 +6,7 @@ import { Button } from '../components/Button';
 
 import styles from '../styles/home.module.css';
 
-const BASE_URL = 'http://172.27.222.61:3000/api';
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function Home() {
   const router = useRouter();
